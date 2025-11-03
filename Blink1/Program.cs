@@ -11,12 +11,12 @@ namespace Blink1
         public static void Main()
         {
             Debug.WriteLine("Hello from nanoFramework!");
-            
-            GpioPin bultinLED = new GpioController().OpenPin(2, PinMode.Output);
+
+            int PinNumber = 2;
+            GpioPin bultinLED = new GpioController().OpenPin(PinNumber, PinMode.Output);
 
             while (true)
             {
-                int PinNumber = 2;
                 // Turn on the LED (assuming an active high configuration)
                 bultinLED.Write(PinValue.High);
                 Thread.Sleep(500); // Keep the LED on for 500 milliseconds
