@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "hejsa", "hejsa\hejsa.nfproj", "{345745E5-C9BF-45EE-82B0-B331471FFE40}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "Blink1", "Blink1\Blink1.nfproj", "{65C6127C-C01B-41BD-8C8C-FF6CB52A8897}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{345745E5-C9BF-45EE-82B0-B331471FFE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345745E5-C9BF-45EE-82B0-B331471FFE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345745E5-C9BF-45EE-82B0-B331471FFE40}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{345745E5-C9BF-45EE-82B0-B331471FFE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345745E5-C9BF-45EE-82B0-B331471FFE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345745E5-C9BF-45EE-82B0-B331471FFE40}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{65C6127C-C01B-41BD-8C8C-FF6CB52A8897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C6127C-C01B-41BD-8C8C-FF6CB52A8897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C6127C-C01B-41BD-8C8C-FF6CB52A8897}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{65C6127C-C01B-41BD-8C8C-FF6CB52A8897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C6127C-C01B-41BD-8C8C-FF6CB52A8897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C6127C-C01B-41BD-8C8C-FF6CB52A8897}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83B52011-C025-455B-84BC-C4580957AA29}
+	EndGlobalSection
+EndGlobal
