@@ -7,6 +7,12 @@ Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "hejsa", "hejsa\hejsa.nfproj
 EndProject
 Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "Blink1", "Blink1\Blink1.nfproj", "{65C6127C-C01B-41BD-8C8C-FF6CB52A8897}"
 EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "Blink2_pin18", "Blink2_pin18\Blink2_pin18.nfproj", "{FC63B981-2B38-4138-8B00-C39BA288BF00}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "Blink_millis", "Blink_millis\Blink_millis.nfproj", "{C7D1A39C-E039-48DA-A1C7-4D1C804C1142}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "Blink_TimerEvent", "Blink_TimerEvent\Blink_TimerEvent.nfproj", "{A08C9D28-BAA8-46AA-81B1-CE0C54242CE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +31,24 @@ Global
 		{65C6127C-C01B-41BD-8C8C-FF6CB52A8897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65C6127C-C01B-41BD-8C8C-FF6CB52A8897}.Release|Any CPU.Build.0 = Release|Any CPU
 		{65C6127C-C01B-41BD-8C8C-FF6CB52A8897}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FC63B981-2B38-4138-8B00-C39BA288BF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC63B981-2B38-4138-8B00-C39BA288BF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC63B981-2B38-4138-8B00-C39BA288BF00}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FC63B981-2B38-4138-8B00-C39BA288BF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC63B981-2B38-4138-8B00-C39BA288BF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC63B981-2B38-4138-8B00-C39BA288BF00}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C7D1A39C-E039-48DA-A1C7-4D1C804C1142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D1A39C-E039-48DA-A1C7-4D1C804C1142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D1A39C-E039-48DA-A1C7-4D1C804C1142}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C7D1A39C-E039-48DA-A1C7-4D1C804C1142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D1A39C-E039-48DA-A1C7-4D1C804C1142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D1A39C-E039-48DA-A1C7-4D1C804C1142}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A08C9D28-BAA8-46AA-81B1-CE0C54242CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08C9D28-BAA8-46AA-81B1-CE0C54242CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08C9D28-BAA8-46AA-81B1-CE0C54242CE9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A08C9D28-BAA8-46AA-81B1-CE0C54242CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08C9D28-BAA8-46AA-81B1-CE0C54242CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08C9D28-BAA8-46AA-81B1-CE0C54242CE9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
