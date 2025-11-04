@@ -21,7 +21,7 @@ GpioPin led = gpio.OpenPin(18, PinMode.Output);
 GpioPin button = gpio.OpenPin(35, PinMode.InputPullDown);
 
 // When the button has no physical pulldown, it often needs a debounce delay
-button.DebounceTimeout = TimeSpan.FromMilliseconds(50);
+button.DebounceTimeout = TimeSpan.FromMilliseconds(15);
 
 // We want to set an event on the pin when the button is pressed or released
 button.ValueChanged += (s, e) =>
