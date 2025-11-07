@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "hejsa", "hejsa\hejsa.nfproj", "{345745E5-C9BF-45EE-82B0-B331471FFE40}"
 EndProject
@@ -20,6 +20,12 @@ EndProject
 Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "Button_gpio_pulldown", "Button_gpio_pulldown\Button_gpio_pulldown.nfproj", "{1D6914D8-AA3A-4805-ADEE-883EB945E880}"
 EndProject
 Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "AnalogPot_1", "AnalogPot_1\AnalogPot_1.nfproj", "{EB13E45C-2968-4706-8F78-2CD0F5CF7C75}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "AnalogPot2LED", "AnalogPot2LED\AnalogPot2LED.nfproj", "{04350704-F67D-4AE4-B28A-1CB62339FFDF}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "OLED_z", "OLED_z\OLED_z.nfproj", "{7574FAB1-87CD-4C6D-A7AB-6FD9A9EF18D1}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "ScanWiFi_w_ntp", "Wifi\ScanWiFi\ScanWiFi_w_ntp.nfproj", "{330D0350-433F-4A60-B545-2911379DDEB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,24 @@ Global
 		{EB13E45C-2968-4706-8F78-2CD0F5CF7C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB13E45C-2968-4706-8F78-2CD0F5CF7C75}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EB13E45C-2968-4706-8F78-2CD0F5CF7C75}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{04350704-F67D-4AE4-B28A-1CB62339FFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04350704-F67D-4AE4-B28A-1CB62339FFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04350704-F67D-4AE4-B28A-1CB62339FFDF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{04350704-F67D-4AE4-B28A-1CB62339FFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04350704-F67D-4AE4-B28A-1CB62339FFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04350704-F67D-4AE4-B28A-1CB62339FFDF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7574FAB1-87CD-4C6D-A7AB-6FD9A9EF18D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7574FAB1-87CD-4C6D-A7AB-6FD9A9EF18D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7574FAB1-87CD-4C6D-A7AB-6FD9A9EF18D1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7574FAB1-87CD-4C6D-A7AB-6FD9A9EF18D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7574FAB1-87CD-4C6D-A7AB-6FD9A9EF18D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7574FAB1-87CD-4C6D-A7AB-6FD9A9EF18D1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{330D0350-433F-4A60-B545-2911379DDEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330D0350-433F-4A60-B545-2911379DDEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330D0350-433F-4A60-B545-2911379DDEB7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{330D0350-433F-4A60-B545-2911379DDEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330D0350-433F-4A60-B545-2911379DDEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330D0350-433F-4A60-B545-2911379DDEB7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
