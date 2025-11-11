@@ -17,15 +17,10 @@ Configuration.SetPinFunction(21, DeviceFunction.I2C1_DATA);
 Configuration.SetPinFunction(22, DeviceFunction.I2C1_CLOCK);
 //////////////////////////////////////////////////////////////////////
 
-//Tested with 128x64 and 128x32 OLEDs
-//using Ssd1306 device = new Ssd1306(I2cDevice.Create(new I2cConnectionSettings(1, Ssd1306.DefaultI2cAddress)), Ssd13xx.DisplayResolution.OLED128x64);
 using Ssd1306 device = new Ssd1306(
     I2cDevice.Create(new I2cConnectionSettings(1, Ssd1306.DefaultI2cAddress)), 
     Ssd13xx.DisplayResolution.OLED128x32);
-//with reset. Pin number 18. Assembly needs to be added a nanoFramework.System.Device.Gpio
-//using Ssd1306 device = new Ssd1306(I2cDevice.Create(new I2cConnectionSettings(1, Ssd1306.SecondaryI2cAddress)), Ssd13xx.DisplayResolution.OLED128x64, 18);
 
-//device.Height = 16;
 device.ClearScreen();
 device.Font = new BasicFont();
 device.DrawString(2, 2, "nF IOT!", 2);//large size 2 font
@@ -37,23 +32,13 @@ device.ClearScreen();
 device.Font = new BasicFont();
 for (int i = 0; i < 50; i++)
 {
-    //device.ClearScreen();
     int line = 1;
     Debug.WriteLine($"1, line++, $\"i: {i}\", 1");
     device.Write(1, line++, $"i: {i}", 1);
     device.Write(1, line++, "Hest!", 1, true);
-    device.Write(1, line++, "nanoFrameworks, \"works\"", 1);
     device.Display();
     Thread.Sleep(500);
 }
-
-
-Thread.Sleep(2000);
-device.ClearScreen();
-device.Font = new DoubleByteFont();
-device.DrawString(2, 2, "功夫＄", 2, false);
-device.DrawString(2, 34, "８９ＡＢ功夫＄", 1, true);
-device.Display();
 
 Debug.WriteLine("End of Ssd1306 Sample!");
 Thread.Sleep(Timeout.Infinite);
